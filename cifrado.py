@@ -74,10 +74,10 @@ def descifrar():
  
     
 
-opcion=input("Que quieres cifrar o descifrar. ")
-if opcion=="cifrar":
+opcion=input("Que quieres cifrar o descifrar.Para cifrar ponga 1 y para descifrar 2 ")
+if opcion=="1":
   cifrado()
-elif opcion =="descifrar":
+elif opcion =="2":
   descifrar()
 else:
-  print("No has introduido nada. ")
+  print("Opcion incorrecta. ")
